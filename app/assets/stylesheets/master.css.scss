@@ -1,3 +1,4 @@
+
 .booyah-box {
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -25,5 +26,11 @@ body {
   border-radius: 0;
   box-shadow: 3px 3px 3px #41423a;
 
+}
+
+.navbar-inverse .navbar-brand {
+	color: #E3E85A;
+	font-family: 'caviar_dreamsbold', sans-serif;
+	font-size: 25px;
 }
 
