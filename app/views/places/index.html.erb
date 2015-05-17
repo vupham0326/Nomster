@@ -13,20 +13,20 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <%= image_tag 'slider1.jpg' %>
+      <%= image_tag 'slider9.jpeg', :class => 'img-responsive' %>
       <div class="carousel-caption">
         Find the best food and drinks places
       </div>
     </div>
     <div class="item">
-      <%= image_tag 'slider4.jpeg' %>
+      <%= image_tag 'slider4.jpeg', :class => 'img-responsive' %>
       <div class="carousel-caption">
         Looking for wine?
       </div>
     </div>
     <div class="item">
-      <%= image_tag 'slider9.jpeg' %>
-      <div class="carousel-caption", 'img-responsive' >
+      <%= image_tag 'slider5.jpeg', :class => 'img-resposive' %>
+      <div class="carousel-caption" >
         Find places to go!
       </div>
     </div>
@@ -40,8 +40,6 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
-
-
 
 <% @places.each do |place| %>
 	<div class="booyah-box col-xs-10 col-xs-offset-1">
