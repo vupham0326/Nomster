@@ -62,7 +62,7 @@
 		    </blockquote>
 		  </div>
 		<% end %>
-	</div>
+
 		<% if place.photos.present? %>
 			<div class="col-xs-12 col-sm-6">
 	      <blockquote>
@@ -74,9 +74,8 @@
 	    </div>
     <% end %>
 
-
 	</div>
 
 <% end %>
- 
-
+ <div class="clear"></div>
+<%= will_paginate @places, :class => "flickr_pagination" %>
