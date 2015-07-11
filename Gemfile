@@ -6,6 +6,7 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -52,6 +53,8 @@ gem "carrierwave"
 gem "fog", "~> 1.3.1"
 
 gem 'factory_girl_rails', "~> 4.0"
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
